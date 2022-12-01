@@ -1,0 +1,27 @@
+.boton{
+    background-color: rgb(25, 23, 23);
+    color:white;
+    border-radius: 5px;
+    border: solid 1px rgb(65, 36, 86);
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    justify-content: center;
+    
+    
+}
+.boton:hover{
+    color: white;
+    background-color:rgb(180, 109, 233);
+    border-radius: 5px;
+    border: solid 1px white;
+    cursor: pointer;
+}
+.paginado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }

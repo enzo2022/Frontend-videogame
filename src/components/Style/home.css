@@ -1,0 +1,51 @@
+.fondo{
+    background-image: url(https://raw.githubusercontent.com/leotano1/PI--Videogames/f4be0a2d081f1474f8b5df0945cc9f463d6878c3/client/src/imgs/background.jpg);
+    background-size: 100%;
+   
+  }
+  .Card{
+    width: 230px;
+    height:250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+    
+}
+.cardsPaginate{
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    background-image: radial-gradient(rgba(255, 255, 255, 0),rgb(0, 0, 0));
+    display: grid;
+    justify-content: space-evenly; 
+    grid-template-columns: auto auto  auto  auto 18%;
+    grid-template-rows: auto auto auto auto auto  auto ;
+    align-content: space-between
+  }
+
+ 
+  .paginado{
+    height: 10vh;
+    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+  }
+  .ordenador{
+    height: 5vh;
+    display: grid;
+    flex-direction: row;
+    
+    text-align: center;
+    padding: 1%;
+    background-color: rgb(17, 10, 26);
+    background-image: linear-gradient( to top left, rgb(19, 10, 32),rgb(60, 44, 83) );
+    grid-template-columns: 10% 10% 10% auto auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
